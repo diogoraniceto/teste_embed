@@ -26,9 +26,3 @@ class BaseConfig(object):
     
     # URL used for initiating authorization request
     AUTHORITY_URL = 'https://login.microsoftonline.com/organizations'
-    
-    # Master user email address. Required only for MasterUser authentication mode.
-    POWER_BI_USER = 'bruno.rigamonti@hospitaltotalhealth.com.br'
-    
-    # Master user email password. Required only for MasterUser authentication mode.
-    POWER_BI_PASS = 'thv2511'
